@@ -1,6 +1,7 @@
 <Solution>
   <Project Path="Dita.AjisInterface/Dita.AjisInterface.csproj" Id="b8e3bf31-efdd-4618-9a24-0200057993db" />
   <Project Path="Dita.Backend/Dita.Backend.csproj" Id="93469b12-d9e4-4a52-8e97-17f024ea1633" />
+  <Project Path="Dita.BackendTranslator/Dita.BackendTranslator.csproj" Id="ce7eb1ac-8ccd-4164-b9c4-6ee795a52497" />
   <Project Path="Dita.EFCore/Dita.EFCore.csproj" Id="43854fc2-e096-485e-849c-c5bf98eca1f9" />
   <Project Path="Dita.Exports/Dita.Exports.csproj" Id="c1336609-cc77-43a4-b243-65713e152e6c" />
   <Project Path="Dita.Localization/Dita.Localization.csproj" Id="aab536be-747c-4c76-8a7e-05be36d80227" />
