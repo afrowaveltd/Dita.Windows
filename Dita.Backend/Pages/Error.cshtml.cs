@@ -4,14 +4,26 @@ using System.Diagnostics;
 
 namespace Dita.Backend.Pages;
 
+/// <summary>
+/// Provides the model for the error page.
+/// </summary>
 [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
 [IgnoreAntiforgeryToken]
 public class ErrorModel : PageModel
 {
+   /// <summary>
+   /// Gets or sets the current request identifier.
+   /// </summary>
    public string? RequestId { get; set; }
 
+   /// <summary>
+   /// Gets a value indicating whether the request identifier is available.
+   /// </summary>
    public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
 
+   /// <summary>
+   /// Handles GET requests for the error page.
+   /// </summary>
    public void OnGet()
    {
       RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier;

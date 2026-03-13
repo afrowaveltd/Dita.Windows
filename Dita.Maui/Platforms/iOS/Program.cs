@@ -1,8 +1,10 @@
-﻿using ObjCRuntime;
-using UIKit;
+﻿using UIKit;
 
-namespace Dita.Maui;
+namespace Dita.Maui.Platforms.iOS;
 
+/// <summary>
+/// Main entry point for the iOS application, responsible for launching the app and initializing the AppDelegate, which manages the application lifecycle and sets up the MAUI app instance.
+/// </summary>
 public class Program
 {
    // This is the main entry point of the application.

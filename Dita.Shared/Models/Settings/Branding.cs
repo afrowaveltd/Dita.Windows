@@ -4,6 +4,9 @@ using System.Text;
 
 namespace Dita.Shared.Models.Settings;
 
+/// <summary>
+/// Represents branding information displayed by the application.
+/// </summary>
 public class Branding
 {
    /// <summary>

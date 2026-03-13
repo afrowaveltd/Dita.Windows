@@ -1,9 +1,11 @@
 ﻿using Android.App;
 using Android.Content.PM;
-using Android.OS;
 
-namespace Dita.Maui;
+namespace Dita.Maui.Platforms.Android;
 
+/// <summary>
+/// Represents the main Android activity for the MAUI application.
+/// </summary>
 [Activity(Theme = "@style/Maui.SplashTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation | ConfigChanges.UiMode | ConfigChanges.ScreenLayout | ConfigChanges.SmallestScreenSize | ConfigChanges.Density)]
 public class MainActivity : MauiAppCompatActivity
 {
